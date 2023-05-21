@@ -1,0 +1,49 @@
+.markdown {
+  @apply text-lg leading-relaxed;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  @apply my-10;
+}
+
+.markdown h1 {
+  @apply text-4xl mt-14 mb-6 font-bold leading-snug;
+}
+
+.markdown h2 {
+  @apply text-3xl mt-12 mb-6 font-bold leading-snug;
+}
+
+.markdown h3 {
+  @apply text-2xl mt-8 mb-4 leading-snug;
+}
+
+.markdown blockquote{
+  @apply border-l-4 border-gray-500 pl-4 my-4;
+}
+
+.markdown a{
+  @apply text-blue-500;
+}
+
+.markdown pre{
+  @apply bg-gray-800 rounded-lg p-4;
+}
+
+
+
+
+.markdown code{
+  @apply bg-gray-800 rounded-lg p-1 text-white;
+}
+
+/*.markdown table{*/
+/*  @apply table-auto;*/
+/*}*/
+
+/*.markdown td{*/
+/*  @apply border px-4 py-2;*/
+/*}*/

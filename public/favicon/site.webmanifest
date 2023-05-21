@@ -1,0 +1,19 @@
+{
+  "name": "Next.js",
+  "short_name": "Next.js",
+  "icons": [
+    {
+      "src": "/favicons/ibuki-350x350.png",
+      "sizes": "350x350",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicons/ibuki-350x350.png",
+      "sizes": "350x350",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone"
+}
