@@ -1,10 +1,10 @@
 ---
 title: 'hello world'
 excerpt: ''
-coverImage: '/assets/blog/hello-world/cover2.jpg'
+coverImage: 'public/assets/blog/hello-world/cover2.jpg'
 date: '2023-05-19T22:23:00+08:00'
 ogImage: 
-  url: '/assets/blog/hello-world/cover2.jpg'
+  url: 'public/assets/blog/hello-world/cover2.jpg'
 ---
 ## 呃呃
 

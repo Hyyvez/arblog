@@ -70,7 +70,7 @@ export async function getStaticProps({ params }: Params) {
   ])
 
   const content = await markdownToHtml(post.content || '')
-  console.log(content)
+  //console.log(content)
 
 
   return {

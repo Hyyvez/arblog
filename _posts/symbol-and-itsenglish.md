@@ -1,10 +1,10 @@
 ---
 title: '各种标点符号的名称及其对应的英文'
 excerpt: '我好菜啊'
-coverImage: '/assets/blog/symbol-and-itsenglish/cover1.jpg'
+coverImage: 'public/assets/blog/symbol-and-itsenglish/cover1.jpg'
 date: '2023-05-19T22:23:00+08:00'
 ogImage: 
-    url: '/assets/blog/symbol-and-itsenglish/cover1.jpg'
+    url: 'public/assets/blog/symbol-and-itsenglish/cover1.jpg'
 ---
 
 ## 各种标点符号的名称及其对应的英文

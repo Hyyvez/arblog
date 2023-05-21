@@ -3,11 +3,11 @@
   "name": "arxblog",
   "homepage": "https://hyyvez.github.io/arxblog",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "typecheck": "tsc"
   },
   "dependencies": {
