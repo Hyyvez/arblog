@@ -76,8 +76,8 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
         
-      - name: Copy public folder
-        run: cp -R public out/
+#       - name: Copy public folder
+#         run: cp -R public out/
         
       - name: Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
