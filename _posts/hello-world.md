@@ -4,7 +4,7 @@ excerpt: ''
 coverImage: 'public/assets/blog/hello-world/cover2.jpg'
 date: '2023-05-19T22:23:00+08:00'
 ogImage: 
-  url: 'https://github.com/Hyyvez/arblog/blob/main/public/assets/blog/hello-world/cover2.jpg'
+  url: 'arblog/public/assets/blog/hello-world/cover2.jpg'
 ---
 ## 呃呃
 
