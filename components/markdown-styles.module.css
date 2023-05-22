@@ -5,7 +5,8 @@
 .markdown p,
 .markdown ul,
 .markdown ol,
-.markdown blockquote {
+.markdown blockquote
+.markdown blockquote{
   @apply my-10;
 }
 
@@ -22,28 +23,25 @@
 }
 
 .markdown blockquote{
-  @apply border-l-4 border-gray-500 pl-4 my-4;
+  @apply border-l-4 border-gray-500 pl-4 my-4 break-all;
 }
 
 .markdown a{
-  @apply text-blue-500;
+  @apply text-blue-500 break-all;
 }
 
 .markdown pre{
   @apply bg-gray-800 rounded-lg p-4;
 }
 
-
-
-
 .markdown code{
-  @apply bg-gray-800 rounded-lg p-1 text-white;
+  @apply bg-gray-800 rounded-md p-1 text-white;
 }
 
-/*.markdown table{*/
-/*  @apply table-auto;*/
-/*}*/
+.markdown table{
+  @apply mx-auto my-10;
+}
 
-/*.markdown td{*/
-/*  @apply border px-4 py-2;*/
-/*}*/
+.markdown td{
+  @apply border border-gray-300 align-middle px-4 py-2 ;
+}
