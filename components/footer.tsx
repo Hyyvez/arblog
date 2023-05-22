@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-neutral-50 border-t border-neutral-200">
       <Container>
         <div className="py-4 flex flex-col lg:flex-row items-center">
-          <h4 className="text-1xl lg:text-[1.45rem] tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
+          <h4 className="text-1xl lg:text-[1.45rem] tracking-tighter leading-tight text-center lg:text-left mb-0 lg:pr-4 lg:w-1/2">
             Templates By {' '}
               <a href="https://github.com/vercel/next.js/tree/canary/examples/blog-starter">
                 Next.js.
