@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "arxblog",
-  "homepage": "https://hyyvez.github.io/arxblog",
+  "homepage": "https://hyyvez.github.io/arblog",
   "scripts": {
     "dev": "next",
     "build": "next build",
