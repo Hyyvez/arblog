@@ -30,12 +30,13 @@
   @apply text-blue-500 break-all;
 }
 
-.markdown pre{
-  @apply bg-gray-800 rounded-lg p-4;
+/*middle images*/
+.markdown img{
+  @apply mx-auto;
 }
 
-.markdown code{
-  @apply bg-gray-800 rounded-md p-1 text-white;
+.markdown pre{
+  @apply rounded-lg;
 }
 
 .markdown table{
@@ -45,3 +46,4 @@
 .markdown td{
   @apply border border-gray-300 align-middle px-4 py-2 ;
 }
+

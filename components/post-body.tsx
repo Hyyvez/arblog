@@ -1,18 +1,26 @@
 import markdownStyles from './markdown-styles.module.css'
+import {rehype} from 'rehype'
+import rehypePrism from 'rehype-prism-plus'
+
 
 type Props = {
-  content: string
+    content: string
 }
 
 const PostBody = ({ content }: Props) => {
-  return (
-    <div className="max-w-3xl mx-auto">
-      <div
-        className={markdownStyles['markdown']}
-        dangerouslySetInnerHTML={{ __html: content }}
-      />
-    </div>
-  )
+    const classedInjectedContent =
+        rehype()
+        .use(rehypePrism)
+        .processSync(content)
+
+    return (
+        <div className="max-w-3xl mx-auto">
+            <div
+                className={markdownStyles['markdown']}
+                dangerouslySetInnerHTML={{ __html: classedInjectedContent }}
+            />
+        </div>
+    )
 }
 
 export default PostBody
