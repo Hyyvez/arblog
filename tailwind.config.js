@@ -2,6 +2,14 @@
 module.exports = {
   content: ['./components/**/*.tsx', './pages/**/*.tsx'],
   theme: {
+    screens: {
+      'sm': {'min': '300px', 'max': '767px'},
+      // => @media (min-width: 640px and max-width: 767px) { ... }
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+    },
     extend: {
       colors: {
         'accent-1': '#FAFAFA',

@@ -14,7 +14,7 @@ const PostBody = ({ content }: Props) => {
         .processSync(content)
 
     return (
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-5xl mx-auto">
             <div
                 className={markdownStyles['markdown']}
                 dangerouslySetInnerHTML={{ __html: classedInjectedContent }}
