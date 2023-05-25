@@ -12,4 +12,4 @@ ogImage:
 家人们谁懂啊, 这是第一篇文章。
 
 ---
-[封面图](https://twitter.com/Amedrama0608/status/1658846845320192003)：https://twitter.com/Amedrama0608/status/1658846845320192003
+封面图：https://twitter.com/Amedrama0608/status/1658846845320192003

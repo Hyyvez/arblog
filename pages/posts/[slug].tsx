@@ -32,7 +32,7 @@ export default function Post({ post, morePosts, preview }: Props) {
               <PostTitle>Loading…</PostTitle>
           ) : (
               <>
-                <article className="mb-20">
+                <article className="mb-14 lg:mb-20">
                   <Head>
                     <title>{title}</title>
                     <meta property="og:image" content={post.ogImage.url} />

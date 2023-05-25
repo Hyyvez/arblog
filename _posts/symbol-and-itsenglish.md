@@ -44,7 +44,7 @@ ogImage:
 写这个博客是用 markdown 写的，实际上之前我也没接触过 markdown 。然后想到之后我要展示代码的时候，代码块的格式要怎么打出来，于是问了 ChatGPT ，它说是要使用三个反引号，我并不知道反引号是哪一个... 然后才知道是1旁边那个键，所以干脆在上面列一个符号的中文及其对应英文
 
 ## markdown语法
-markdown 用三个反引号显示文本中的 ```行内代码块```，或者用上下一对的三个反引号显示代码块，上面三个反引号的后面可以写上语言，赋值 class 属性，如下图
+markdown 用反引号显示文本中的 `行内代码块`，或者用上下一对的三个反引号显示代码块，上面三个反引号的后面可以写上语言，赋值 class 属性，如下图
 
 ![code_block_example](/assets/blog/symbol-and-itsenglish/code_block_example.PNG "code_block_example")
 
@@ -64,6 +64,6 @@ edited( date: '2023-05-20T23:56:00+08:00' ): 家人们谁懂啊，这个 next.js
 
 > edited( date: '2023-05-22T16:11:00+08:00' ): 表格正常了。把 [remark-html](https://github.com/remarkjs/remark-html) 改成用 [remark-gfm](https://unifiedjs.com/explore/package/remark-gfm/) 就支持表格了。
 ---
-[封面图](https://twitter.com/tori_nankotsu96/status/1658536616313655296)：https://twitter.com/holystars123/status/1658774673935724545
+封面图：https://twitter.com/holystars123/status/1658774673935724545
 
 
