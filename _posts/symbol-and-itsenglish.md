@@ -10,36 +10,36 @@ ogImage:
 ## 各种标点符号的名称及其对应的英文
 
 
-| 符号 |              英文               |     中文     |
-|----|---------------------------------|--------------|
-| `  |       Backtick, backquote       |    反引号    |
-| ~  |              Tilde              |    波浪号    |
-| !  |        Exclamation Mark         |    惊叹号    |
-| @  |            At Symbol            |      æt     |
-| #  |      Hash Sign, Pound Sign      |     井号     |
-| $  |           Dollar Sign           |   美元符号   |
-| %  |          Percent Sign           |    百分号    |
-| ^  |           Caret Symbol          |   插入符号   |
-| &  |    Ampersand Symbol, and sign   |    和符号    |
-| *  |         Asterisk Symbol         |     星号     |
-| () |   Parentheses, Round Brackets   |    圆括号    |
-| _  |       Hyphen, Minus Sign        |    连字符    |
-| +  |            Plus Sign            |     加号     |
-| _  |      Underscore, Underline      |    下划线    |
-| =  |           Equals Sign           |     等号     |
-| {} |         Curly Brackets          |    大括号    |
-| [] |    Brackets, Square Brackets    |    方括号    |
-| :  |              Colon              |     冒号     |
-| ;  |            Semicolon            |     分号     |
-| "  |         Quotation Mark          |    双引号    |
-| '  |           Apostrophe            |    单引号    |
-| <> |         Angle Brackets          |    尖括号    |
-| ,  |              Comma              |     逗号     |
-| .  |           Period, Dot           |     句号     |
-| ?  |          Question Mark          |     问号     |
-| /  |      Slash, Forward Slash       |     斜杠     |
-| \| |          Vertical bar           |     竖杠     |
-| \  |            Backslash            |    反斜杠    |
+| 符号 | 英文                          | 中文   |
+|----|-----------------------------|------|
+| `  | Backtick, backquote         | 反引号  |
+| ~  | Tilde                       | 波浪号  |
+| !  | Exclamation Mark            | 惊叹号  |
+| @  | At Symbol                   | æt   |
+| #  | Hash Sign, Pound Sign       | 井号   |
+| $  | Dollar Sign                 | 美元符号 |
+| %  | Percent Sign                | 百分号  |
+| ^  | Caret Symbol                | 插入符号 |
+| &  | Ampersand Symbol, and sign  | 和符号  |
+| *  | Asterisk Symbol             | 星号   |
+| () | Parentheses, Round Brackets | 圆括号  |
+| _  | Hyphen, Minus Sign          | 连字符  |
+| +  | Plus Sign                   | 加号   |
+| _  | Underscore, Underline       | 下划线  |
+| =  | Equals Sign                 | 等号   |
+| {} | Curly Brackets              | 花括号  |
+| [] | Square Brackets             | 方括号  |
+| :  | Colon                       | 冒号   |
+| ;  | Semicolon                   | 分号   |
+| "  | Quotation Mark              | 双引号  |
+| '  | Apostrophe                  | 单引号  |
+| <> | Angle Brackets              | 尖括号  |
+| ,  | Comma                       | 逗号   |
+| .  | Period, Dot                 | 句号   |
+| ?  | Question Mark               | 问号   |
+| /  | Slash, Forward Slash        | 斜杠   |
+| \| | Vertical bar                | 竖杠   |
+| \  | Backslash                   | 反斜杠  |
 
 写这个博客是用 markdown 写的，实际上之前我也没接触过 markdown 。然后想到之后我要展示代码的时候，代码块的格式要怎么打出来，于是问了 ChatGPT ，它说是要使用三个反引号，我并不知道反引号是哪一个... 然后才知道是1旁边那个键，所以干脆在上面列一个符号的中文及其对应英文
 
