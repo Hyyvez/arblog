@@ -17,9 +17,9 @@ const Footer = () => {
                             </a>
                         </h4>
                     </div>
-                    <div className="flex flex-row justify-end items-center lg:w-1/2">
-                        <a href={FOOTER_GITHUB}>
-                            <div className="my-auto w-6 h-6 mr-10">
+                    <nav className="flex flex-row justify-end items-center lg:w-1/2">
+                        <div className="my-auto w-6 h-6 mr-6">
+                            <a href={FOOTER_GITHUB}>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.6, -0.6, 26, 26">
                                     <g transform="scale(0.24)">
                                         <path transform="translate(-50%, -50%)" fillRule="evenodd" clipRule="evenodd"
@@ -27,8 +27,8 @@ const Footer = () => {
                                               fill="#24292f"/>
                                     </g>
                                 </svg>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                         <div className="my-auto w-6 h-6">
                             <a href={FOOTER_EMAIL}>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="2.3, 2.3, 26, 26">
@@ -39,7 +39,7 @@ const Footer = () => {
                                 </svg>
                             </a>
                         </div>
-                    </div>
+                    </nav>
                 </div>
             </Container>
         </footer>
