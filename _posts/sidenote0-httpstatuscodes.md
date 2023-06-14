@@ -22,6 +22,18 @@ Server error responses (500 – 599) 服务器错误状态码
 ```
 
 ## 常见的场景和对应的状态码
+> *由 ChatGPT 生成*
+
+| 示例                                       |状态码|
+|:-----------------------------------------|:----|
+| 当你访问一个不存在的网页时                            |404 Not Found|
+| 当你在网上购物并提交订单时，如果订单成功创建                   |201 Created|
+| 如果一个网站正在进行维护或不存在                         |503 Service Unavailable|
+| 当你尝试登录某个网站，但输入了错误的用户名或密码                 |401 Unauthorized|
+| 当你在在线论坛上发表评论或回复时，内容违反网站规定                |403 Forbidden|
+| 当你使用一个已过期的购物优惠码来结算购物车中的商品                |400 Bad Request|
+| 当你在某个新闻网站上点击一个新闻文章链接，但该文章已被删除或移动到其他位置    |301 Moved Permanently|
+| 当你尝试访问一个在线视频流媒体平台上的热门视频，但该视频由于版权问题暂时无法播放 |503 Service Unavailable|
 
 ## 常见的状态码
 
@@ -45,7 +57,6 @@ Server error responses (500 – 599) 服务器错误状态码
 401 Unauthorized：请求需要用户认证。
 403 Forbidden：服务器拒绝提供请求的资源。
 404 Not Found：请求的资源在服务器上不存在。
-410 Gone：表示页面已经不存在，没有设置任何转发地址。
 ```
 5xx（Server error responses 服务器错误状态码）：
 ```text
@@ -67,6 +78,9 @@ Server error responses (500 – 599) 服务器错误状态码
 401 Unauthorized：请求需要用户认证。
 403 Forbidden：服务器拒绝提供请求的资源。
 404 Not Found：请求的资源在服务器上不存在。
-410 Gone：表示页面已经不存在，没有设置任何转发地址。
 ```
 所以答案应该是401。
+
+---
+
+封面图：https://twitter.com/CatChangelog/status/1666222128046153728
